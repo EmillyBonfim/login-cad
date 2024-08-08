@@ -34,7 +34,7 @@ function salvarUser(){
 
 // FUNÇÃO QUE CRIA LISTA DE USUÁRIOS
 
-// <td> = criar a coluna | <tr> = criar a linha | += = oque estiver dentro fica mais adiciona mais alguma coisa
+// <td> = criar a coluna | <tr> = criar a linha |<th> = cabeçalho da tabela| += = oque estiver dentro da tabela fica, mais adiciona mais algum item há tabela.
 
 function criaLista(){
     let tabela = document.getElementById("tabela").innerHTML = "<tr><th>Nome Usuário</th><th>Ações</th></tr>";
