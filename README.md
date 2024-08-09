@@ -1,7 +1,7 @@
 ## Lofin-Cad
 Nessa atividade nós criamos uma página de Login e cadastro onde ao fazer login no site ele nos direciona a página de cadastro, nele conseguimos cadastrar algo editar-lo e exclui-lo o.
 
-## Explicações das funções em Java Script
+## Explicações das funções em JavaScript
 
  * ``element``  É uma referência a um objeto ``Element``, ou null se um elemento com o ID especificado não estiver contido neste documento.
  
