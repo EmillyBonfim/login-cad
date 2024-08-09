@@ -1,6 +1,6 @@
 // VALIDAR ACESSO EM TELA DE LOGIN
 
-function acessar(){
+function acessar(){ // CRIA UMA FUNÇÃO  QUE
     let loginEmail = document.getElementById("loginEmail").value;
     let loginSenha = document.getElementById("loginSenha").value;
 
@@ -24,11 +24,11 @@ function salvarUser(){
         dadosLista.push(nomeUser);
         //console.log(dadosLista);
         criaLista();
-        document.getElementById("nomeUser").value = "";
+        document.getElementById("nomeUser").value = ""; // Após envio do campo de Login, o input fica vazio
 
 
     }else{
-        alert("Favor informar o nome para cadastro");
+        alert("Favor informar o nome para cadastro"); // Caso o usuário não preencha o campo ele aparecera um Pop-up para preenchimento completo do cadastro.
     }
 }
 
