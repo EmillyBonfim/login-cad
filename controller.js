@@ -1,27 +1,27 @@
 // VALIDAR ACESSO EM TELA DE LOGIN
 
-function acessar(){ // CRIA UMA FUNÇÃO  QUE
+function acessar(){ // CRIA UMA FUNÇÃO  QUE VALIDA OQUE FOI ESCRITO NOS CAMPOS DE LOGIN
     let loginEmail = document.getElementById("loginEmail").value;
     let loginSenha = document.getElementById("loginSenha").value;
 
     if(!loginEmail || !loginSenha){
-        alert("Favor preencher todos os campos");
+        alert("Favor preencher todos os campos"); // Mostra Pop-up caso usuário não preencha corretamente os campos de Login.
     }else{
         //alert("Campos preenchidos com sucesso");
-        window.location.href = "cadastro.html" ;
+        window.location.href = "cadastro.html" ; // Ao preencher os campos corretamente ele te direciona a outra página
     }
 }
 
 //FUNÇÃO QUE ARMAZENA EM ARRAY NOME NA TELA DE CADASTRO
 
-var dadosLista = [];
+var dadosLista = []; // ARMAZENA A LISTA DE NOMES INSERIDOS
 
 function salvarUser(){
-    let nomeUser = document.getElementById("nomeUser").value;
+    let nomeUser = document.getElementById("nomeUser").value; // Declara variáveis limitando seu escopo no bloco
 
     if(nomeUser){
 
-        dadosLista.push(nomeUser);
+        dadosLista.push(nomeUser); // Adicionou um ou mais elementos ao final do array e retornou o novo comprimento desse array.
         //console.log(dadosLista);
         criaLista();
         document.getElementById("nomeUser").value = ""; // Após envio do campo de Login, o input fica vazio
@@ -51,7 +51,7 @@ function editar(i){
 }
 
 // FUNÇÃO QUE EXCLUI NOME DA LISTA
-function excluir(i){
+function excluir(i){ // CRIOU UMA FUNÇÃO EXCLUIR
     dadosLista.splice((i - 1), 1);
     document.getElementById('tabela').deleteRow(i);
 }
