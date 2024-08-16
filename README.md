@@ -3,6 +3,7 @@ Nessa atividade nós criamos uma página de Login e Cadastro onde ao fazer login
 
 ## Explicações das funções e elementos em JavaScript
 
+
  * ``element``  É uma referência a um objeto ``Element``, ou null se um elemento com o ID especificado não estiver contido neste documento.
  
  * ``id``   É uma string que diferência maiúsculas e minúsculas representando o ID único do elemento sendo procurado.
