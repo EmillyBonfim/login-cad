@@ -1,5 +1,5 @@
-## Lofin-Cad
-Nessa atividade nós criamos uma página de Login e cadastro onde ao fazer login no site ele nos direciona a página de cadastro, nele conseguimos cadastrar algo editar-lo e exclui-lo o.
+## Página de Login e Cadastro
+Nessa atividade nós criamos uma página de Login e Cadastro onde ao fazer login na página inicial ele nos direciona a página de cadastro, nele conseguimos cadastrar algo editar-lo e exclui-lo o.
 
 ## Explicações das funções em JavaScript
 
@@ -30,9 +30,9 @@ Nessa atividade nós criamos uma página de Login e cadastro onde ao fazer login
 * Se algum campo estiver vazio, exibe um alerta.
 * Se ambos os campos estiverem preenchidos, redireciona para "cadastro.html". 
 
-## Projeto final
+## Cadastro Projeto final 
 
-![](img/2.png)
+![](gif/video2.gif)
 
 
 ## Tecnologias
